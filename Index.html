@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>REDIS BEAUTY</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1><strong>REDIS BEAUTY</strong></h1>
+
+      <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#prestations">Prestations</a>
+        <a href="#reservation">Réservation</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="accueil" class="hero-section">
+        <div class="hero-text">
+          <p>Bienvenue chez REDIS BEAUTY</p>
+          <h1>Votre style, notre savoir-faire</h1>
+          <p>Du style et des soins adaptés à vos envies.</p>
+        </div>
+      </section>
+
+      <section id="prestations" class="prestations-section">
+        <h2>Nos prestations</h2>
+
+        <div class="cards-container">
+          <div class="card">
+            <h3>Coupe pour homme</h3>
+            <img src="homme.jpg" alt="Coupe pour homme">
+          </div>
+
+          <div class="card">
+            <h3>Coupe pour femme</h3>
+            <img src="femme.jpg" alt="Coupe pour femme">
+          </div>
+
+          <div class="card">
+            <h3>Brushing</h3>
+            <img src="brushing.jpg" alt="Brushing">
+          </div>
+
+          <div class="card">
+            <h3>Coloriage</h3>
+            <img src="color.jpg" alt="Coloriage">
+          </div>
+
+          <div class="card">
+            <h3>Soins capillaires</h3>
+            <img src="soins.jpg" alt="Soins capillaires">
+          </div>
+        </div>
+      </section>
+
+      <section id="reservation">
+        <h2>Réservation</h2>
+
+        <form>
+          <fieldset>
+            <legend>Choisissez un jour</legend>
+
+            <label><input type="radio" name="jour"> Lun 14/09</label>
+            <label><input type="radio" name="jour"> Mar 15/09</label>
+            <label><input type="radio" name="jour"> Mer 16/09</label>
+            <label><input type="radio" name="jour"> Jeu 17/09</label>
+            <label><input type="radio" name="jour"> Ven 18/09</label>
+            <label><input type="radio" name="jour"> Sam 19/09</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Choisissez une heure</legend>
+
+            <label><input type="radio" name="heure"> 12h00</label>
+            <label><input type="radio" name="heure"> 12h30</label>
+            <label><input type="radio" name="heure"> 13h00</label>
+            <label><input type="radio" name="heure"> 13h30</label>
+            <label><input type="radio" name="heure"> 14h00</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Nombre de personnes</legend>
+
+            <label><input type="radio" name="personnes"> 1</label>
+            <label><input type="radio" name="personnes"> 2</label>
+            <label><input type="radio" name="personnes"> 3</label>
+            <label><input type="radio" name="personnes"> 4</label>
+            <label><input type="radio" name="personnes"> 5</label>
+            <label><input type="radio" name="personnes"> Plus</label>
+          </fieldset>
+
+          <button type="button">CONTINUER</button>
+        </form>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <h2>Contact</h2>
+
+      <address>
+        <p>Adresse : IUA Campus corniche</p>
+        <p>Téléphone : 07 00 01 48 01</p>
+        <p>Horaires : lundi–vendredi, 9 h–18 h ; samedi, 9 h–16 h</p>
+      </address>
+    </footer>
+  </body>
+</html>
